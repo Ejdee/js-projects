@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(84, 194, 166);
+}
+
+h1 {
+    font-family: "Permanent marker", cursive;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 4rem;
+}
+
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 75px;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 3px 3px black;
+    cursor: pointer;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+.centerize {
+    text-align: center;
+}
+
+#hiddenstate {
+    background: #000000;
+    border-radius: 20px;
+    font-family: "Permanent marker", cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  #hiddenstate:hover {
+    background: #212121;
+    text-decoration: none;
+  }
+
+
+  #hiddenstate2 {
+    background: #000000;
+    border-radius: 20px;
+    font-family: "Permanent marker", cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  #hiddenstate2:hover {
+    background: #212121;
+    text-decoration: none;
+  }
+ 
